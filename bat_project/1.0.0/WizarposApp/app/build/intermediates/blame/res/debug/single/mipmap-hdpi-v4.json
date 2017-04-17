@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\goodsnum_plus.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\goodsnum_plus.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\boss_myorder.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\boss_myorder.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\cart.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\cart.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\boss_ungetgoods.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\boss_ungetgoods.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\goodsnum.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\goodsnum.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\goodsnum_reduce.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\goodsnum_reduce.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\boss_location.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\boss_location.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\search_scan.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\search_scan.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\boss_getgoods.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\boss_getgoods.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\boss_unpay.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\boss_unpay.png"
+    }
+]

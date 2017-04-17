@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textsize_2">22dp</dimen>
+    <dimen name="textsize_3">18dp</dimen>
+    <dimen name="backimg">35dp</dimen>
+    <dimen name="toptitle">35dp</dimen>
+    <dimen name="titlelinesize">44dp</dimen>
+    <dimen name="timesize">12dp</dimen>
+    <dimen name="itemsize">50dp</dimen>
+
+</resources>

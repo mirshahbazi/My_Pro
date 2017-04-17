@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.linjia.wizarposapp.activities.SubmitOrderFormActivity">
+    // 1 导航栏
+    <RelativeLayout
+        android:id="@+id/activity_submit_order_navigation"
+        android:background="#E51312"
+        android:layout_width="match_parent"
+        android:layout_height="82px"
+        android:gravity="center_vertical">
+
+        // 1.1 返回图标
+        <ImageView
+            android:id="@+id/activity_submit_order_form_top_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="52px"
+            android:onClick="onClick"
+            android:src="@mipmap/common_top_back"/>
+
+        // 1.2 导航栏标题
+        <TextView
+            android:id="@+id/activity_submit_order_form_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cart_submitOrder"
+            android:textSize="35px"
+            android:gravity="center_vertical"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    // 2 店铺 收货人 联系电话
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        // 4 listview列表内容
+        <ListView
+            android:id="@+id/activity_commit_orderform_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></ListView>
+        <include
+            android:id="@+id/activity_commit_goods_title"
+            layout="@layout/global_goods_title"
+            ></include>
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#E3E2E0"
+        ></View>
+    // 5 底部的价格显示和订单提交
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/commit_payment_btn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:layout_marginRight="52px"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/activity_cart_payment_btn_back_on"
+            android:text="@string/commit_payment_btn"
+            />
+        <TextView
+            android:id="@+id/commit_payment_money"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="00.00"
+            android:textSize="22sp"
+            android:textColor="#FF0000"
+            android:layout_marginRight="10px"
+            android:layout_toLeftOf="@id/commit_payment_btn"
+            />
+        <TextView
+            android:id="@+id/commit_orderform_money_realpay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/commit_orderform_real_pay"
+            android:textSize="22sp"
+            android:textColor="#FF0000"
+            android:layout_marginRight="10px"
+            android:layout_toLeftOf="@id/commit_payment_money"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/commit_orderForm_freight_number"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:textSize="22sp"
+            android:text="00.00"
+            android:textColor="#FF0000"
+            android:layout_marginRight="20px"
+            android:gravity="center"
+            android:layout_toLeftOf="@id/commit_orderform_money_realpay"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/commit_orderForm_freight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#FF0000"
+            android:layout_marginRight="10px"
+            android:text="@string/commit_orderform_freight"
+            android:layout_toLeftOf="@id/commit_orderForm_freight_number"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/commit_orderForm_totalmoney_number"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:text="00.00"
+            android:textColor="#FF0000"
+            android:layout_marginRight="10px"
+            android:layout_toLeftOf="@id/commit_orderForm_freight"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/commit_orderForm_totalmoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#FF0000"
+            android:layout_marginRight="10px"
+            android:text="@string/commit_orderform_totalMonney"
+            android:layout_toLeftOf="@id/commit_orderForm_totalmoney_number"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

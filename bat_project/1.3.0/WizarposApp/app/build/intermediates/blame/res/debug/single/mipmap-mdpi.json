@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\delet.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\delet.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia_logo_text.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia_logo_text.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\cart_item_delete.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\cart_item_delete.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\eye.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\eye.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\cart.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\cart.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\boss_setting.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\boss_setting.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_person_right.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_person_right.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_checked.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_checked.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_unchecked.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_unchecked.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\personal.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\personal.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\search.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\search.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia_login.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia_login.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\select_yes.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\select_yes.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\boss_giftcard.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\boss_giftcard.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\version_img.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\version_img.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\type.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\type.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\weixinzhifu.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\weixinzhifu.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\spot_cart.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\spot_cart.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\sold_out_big.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\sold_out_big.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\zhifubao.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\zhifubao.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\eye_open.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\eye_open.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\bb.9.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\bb.9.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\shopcar.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\shopcar.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\exempt.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\exempt.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\search_btn_back.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\search_btn_back.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_top_back.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_top_back.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\boss_message.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\boss_message.png"
+    }
+]

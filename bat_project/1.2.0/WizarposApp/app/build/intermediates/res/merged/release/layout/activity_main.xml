@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity"
+    android:descendantFocusability="afterDescendants"
+    >
+    //1 首页顶部标题栏，改变
+<!--<include layout="@layout/common_main_topbar"/>-->
+    <RelativeLayout
+        android:background="#CF171B"
+        android:layout_width="match_parent"
+        android:layout_height="82px"
+        android:paddingLeft="52px"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/topbar_log"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/linjia"/>
+
+        <top.linjia.wizarposapp.customs.MyEditText
+            android:focusable="false"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/topbar_log"
+        android:id="@+id/main_btn_search"
+        android:background="@drawable/backgroundline"
+        android:layout_width="430dp"
+        android:layout_height="50px"
+        android:paddingLeft="15dp"
+            android:layout_marginLeft="50dp"
+        android:hint="@string/main_goodsNameBarCode"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@mipmap/search"
+            android:textSize="20sp"
+        android:onClick="onClick"
+            android:drawableRight="@mipmap/search_scan"
+            android:paddingRight="15dp"/>
+        <TextView
+            android:id="@+id/main_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_toRightOf="@id/topbar_log"
+            android:layout_alignBottom="@id/main_btn_search"
+            android:layout_marginBottom="5dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:paddingRight="52px"
+            >
+            <ImageView
+                android:id="@+id/goods_type"
+                android:layout_marginLeft="30px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/type"
+                android:onClick="onClick"
+                />
+            <AbsoluteLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/common_cart"
+                android:layout_marginLeft="30px">
+                <ImageView
+                    android:id="@+id/shopchar"
+                    android:layout_marginLeft="30px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/shopcar"
+                    android:onClick="onClick"
+                    android:scaleType="fitCenter"
+                    />
+                <TextView
+                    android:id="@+id/main_cartnum"
+                    android:gravity="center"
+                    android:text="0"
+                    android:lines="1"
+                    android:textStyle="bold"
+                    android:textColor="#CF171B"
+                    android:textSize="14sp"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/cartnum"
+                    android:layout_x="26dp"
+                    android:layout_y="0dp"
+                    />
+            </AbsoluteLayout>
+
+            <ImageView
+                android:id="@+id/personal_center"
+                android:layout_marginLeft="30px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/personal"
+                android:onClick="onClick"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    //2 搜索栏和分类
+
+
+    //3 商品目录浏览区  标题
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/type_title_back_shape"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_scan_name"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/common_name"/>
+        <TextView
+            android:id="@+id/main_scan_danjia"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/common_unitPrice"/>
+        <TextView
+            android:id="@+id/main_scan_kucun"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/giftCard_stock"/>
+        <TextView
+            android:id="@+id/main_scan_stname"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/common_operate"/>
+    </LinearLayout>
+
+
+
+    //4 商品浏览区  目录展示区 这个item条目需要加载到listview中，此处应该是一个listview
+    //第一版，带购物车图标的小车，可以显示购物数量
+    <!--<include layout="@layout/common_allgoodslist_item"/>-->
+    //第二版，购物小车改成文字，点击后直接跳转到购物车界面
+
+   <!--<include layout="@layout/common_allgoodslist_item2"/>-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"><!-- 这里有可能会出问题-->
+        <LinearLayout
+            android:id="@+id/main_list_loading_fail"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/internet_fail_message"
+                />
+            <Button
+                android:id="@+id/again_loading_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/again_loading"
+                android:onClick="onClick"
+                />
+        </LinearLayout>
+        <!--分成 上是失败 下是成功-->
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/main_pullrefreshlistview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/line"
+            android:dividerHeight="1px"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:smoothScrollbar="true" />
+    </FrameLayout>
+</LinearLayout>

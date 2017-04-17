@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30px"
+    android:paddingBottom="30px"
+    android:paddingLeft="150px"
+    android:paddingRight="150px"
+    >
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ProgressBar
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+            android:max="200"
+            android:progress="0"
+            android:visibility="visible"
+            />
+        <TextView
+            android:id="@+id/dialog_mag"
+            android:singleLine="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录中..."
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            />
+    </LinearLayout>
+    <!--可能是属性有问题都找这里-->
+</FrameLayout>

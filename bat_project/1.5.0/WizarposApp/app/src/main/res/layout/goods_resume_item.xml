@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:gravity="center_vertical"
+    android:background="#ff0000"
+    >
+    <TextView
+        android:id="@+id/goods_name"
+        android:layout_marginLeft="50dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:text="农夫山泉有点跳200L 家庭装"
+        />
+
+    <TextView
+        android:id="@+id/goods_regulation"
+        android:layout_marginLeft="50dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:text="箱 500ml * 24"
+        />
+
+    <TextView
+        android:id="@+id/goods_singlemoney"
+        android:layout_marginLeft="50dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:text="￥ 39.00"
+        />
+    <TextView
+        android:id="@+id/goods_min_order"
+        android:layout_marginLeft="50dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:text="1"
+        />
+    <TextView
+        android:id="@+id/goods_surplus"
+        android:layout_marginLeft="50dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:text="299"
+        />
+</LinearLayout>

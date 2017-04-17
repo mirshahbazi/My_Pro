@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="barcodedecoder_r23459">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/barcodedecoder_r23459.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

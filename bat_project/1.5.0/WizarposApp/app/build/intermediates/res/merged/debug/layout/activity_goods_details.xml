@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.linjia.wizarposapp.activities.GoodsDetailsActivity">
+    // 1 导航栏
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/titlebar"
+        android:gravity="center_vertical"
+        android:elevation="5dp">
+
+        // 1.1 返回图标
+
+        <ImageView
+            android:id="@+id/activity_goods_details_top_back_iv"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/back" />
+
+        // 1.2 导航栏标题
+
+        <TextView
+            android:id="@+id/activity_goods_details_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="390dp"
+            android:layout_toEndOf="@+id/activity_goods_details_top_back_iv"
+            android:layout_toRightOf="@+id/activity_goods_details_top_back_iv"
+            android:gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:text="@string/goodsDetails_goodsDetails"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        // 1.3 购物车图标，点击后跳转到订货单界面
+
+        <include
+            android:visibility="gone"
+            layout="@layout/common_cart_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/goods_details_loading_success_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="430dp"
+        android:orientation="horizontal">
+
+        // 2 左边商品图片
+
+        <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/goods_details_image_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp">
+
+
+                <ImageView
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/goodsdetails_goodsimage"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/place_holder" />
+
+                <TextView
+                    android:id="@+id/goodsdetails_couponinfo"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom"
+                    android:background="#e0000000"
+                    android:gravity="center"
+                    android:textColor="@color/line"
+                    android:textSize="25dp"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/goods_details_sold_out"
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:src="@mipmap/sold_out_big"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_alignLeft="@+id/goods_details_image_frame"
+                android:layout_below="@+id/goods_details_image_frame"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/goods_details_coupondot"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="•"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/goods_details_couponinfo"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        // 3 右边各种产品信息
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+            // 3.1 商品名字
+
+            <TextView
+                android:id="@+id/activity_goods_details_goodsname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/common_goodsname"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            // 3.4 品牌
+
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/goodsDetailsbg"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/goodsDetails_brand"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/activity_goods_details_goodsbrand"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/goodsDetails_unit"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/activity_goods_details_goodsunit"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+
+                // 3.6 类型
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/goodsDetails_type"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/activity_goods_details_goodstype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="7dp"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                // 3.7 规格
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/goodsDetails_standard"
+                        android:textSize="16sp"
+                        android:id="@+id/textView3" />
+
+                    <TextView
+                        android:id="@+id/activity_goods_details_goodsguige"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="7dp"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/commom_goods_createtime"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/activity_goods_details_crteatetime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="7dp"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                // 3.5 库存
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="16dp"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25sp"
+                        android:text="@string/giftCard_stock"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/activity_goods_details_goodskucun"
+                        android:layout_width="0dp"
+                        android:layout_height="25sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="7dp"
+                        android:textColor="#E51212"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            // 3.8 加入购物车系列图标
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+                // 3.8.1 购物车图标，修改后删除此处的购物车按钮
+                <!--<include layout="@layout/common_cart_num"/>-->
+
+                // 3.8.2 加减按钮组合
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/activity_goods_details_goodsprice"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:textColor="#E51212"
+                        android:textSize="35sp" />
+
+                    <Button
+                        android:id="@+id/activity_goods_details_cartreduce"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@mipmap/substract" />
+                    <!-- <TextView
+                         android:textSize="25sp"
+                         android:id="@+id/activity_goods_details_cartnum"
+                         android:layout_width="120dp"
+                         android:layout_height="50dp"
+                         android:text="1"
+                         android:background="@drawable/radiuslinekuang"
+                         android:gravity="center"
+                         android:layout_marginLeft="8dp"
+                         android:layout_marginRight="8dp"/>-->
+                    <TextView
+                        android:background="@mipmap/goods_num"
+                        android:id="@+id/activity_goods_details_cartnum"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:onClick="onClick"
+                        android:text="1"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/activity_goods_details_cartplus"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@mipmap/add" />
+                </LinearLayout>
+
+                // 3.8.3 加入购物车按钮
+
+                <Button
+                    android:id="@+id/activity_goods_details_cartadd"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/activity_cart_payment_btn_back_on"
+                    android:gravity="center"
+                    android:text="@string/common_addcart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginLeft="110dp"
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="400dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/baozhang" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/goods_details_loading_fail_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data_loaging_fail" />
+
+        <Button
+            android:id="@+id/goods_details_loading_fail_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/again_loading" />
+    </LinearLayout>
+
+    <View
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/goods_details_shadowline"
+        />
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/goods_details_gocart"
+        android:text="@string/go_cart"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="520dp"
+        android:layout_width="520dp"
+        android:layout_height="60dp"
+        android:background="@color/titlebar"/>
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:weightSum="14">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:paddingLeft="20dp">
+        <ImageView
+            android:id="@+id/second_level_goods_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/linjia_img_default"
+            android:layout_toRightOf="@id/cart_item_checkbox"
+            />
+
+
+        <ImageView
+            android:id="@+id/second_level_item_favorable_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/not_favorable_shop"
+            android:layout_toRightOf="@id/second_level_goods_image"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/second_level_item_goods_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/second_level_item_favorable_type"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="13dp"
+            android:singleLine="true"
+            android:text="@string/common_name"
+
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/second_level_item_standard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_level_item_goods_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:drawableLeft="@drawable/black_circle"
+            android:drawablePadding="8dp"
+            android:layout_toRightOf="@id/second_level_goods_image"
+            android:gravity="center_vertical"
+            android:maxWidth="200dp"
+            android:singleLine="true"
+            android:text="@string/common_standard"
+            android:textColor="#737373"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/second_level_item_create_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_level_item_goods_name"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/black_circle"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:maxWidth="200dp"
+            android:singleLine="true"
+            android:text="2016-11-27"
+            android:textColor="#737373"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/second_level_item_barcode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="6979879867598"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="單價"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:paddingLeft="20dp"
+        >
+        <ImageButton
+            android:id="@+id/second_level_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#DF00"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/second_level_cart"
+            />
+    </RelativeLayout>
+</LinearLayout>

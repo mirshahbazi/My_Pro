@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--登陆界面呢自定义的checkbox样式-->
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/remember_password_select</item>
+    </style>
+
+    <!--订货单界面呢自定义的checkbox样式-->
+    <style name="CartCustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/cart_checked_selector</item>
+    </style>
+    <!--自定义dialog-->
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@drawable/custom_dialog_shape</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--window背景透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+
+        <item name="android:backgroundDimEnabled">false</item>
+
+        <item name="android:backgroundDimAmount">0.1</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        </style>
+    
+    <!--submit选择卡券的dialog-->
+
+    <style name="select_coupon_dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <!--dialog的退出和进入动画-->
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+</resources>

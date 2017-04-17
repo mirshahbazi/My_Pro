@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.linjia.wizarposapp.activities.ClassifyActivity">
+    // 1 顶部导航栏
+
+    <LinearLayout
+        android:background="@color/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="64px"
+        android:gravity="center_vertical">
+
+        // 1.1 返回图标
+    <ImageView
+        android:id="@+id/common_top_back_iv"
+        android:layout_width="60dp"
+        android:layout_height="36dp"
+        android:src="@mipmap/logo"
+        android:layout_marginLeft="30dp"
+        android:scaleType="fitXY"
+        android:clickable="true"/>
+
+        // 1.2 导航栏标题
+        <TextView
+            android:background="@drawable/title_address_back"
+            android:id="@+id/common_top_text"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="商品品类"
+            android:textSize="14sp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            />
+
+        <top.linjia.wizarposapp.customs.MyEditText
+            android:id="@+id/common_top_search"
+            android:paddingLeft="10dp"
+            android:layout_width="380dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/search"
+            android:background="@drawable/backgroundline"
+            android:hint="@string/main_goodsNameBarCode"
+            android:clickable="true"
+            android:focusable="false"
+            android:drawableRight="@mipmap/search_scan"
+            android:paddingRight="15dp"/>
+
+        <TextView
+            android:id="@+id/common_top_zhaohuo"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="找货"
+        android:textColor="@color/white"
+        android:drawableTop="@mipmap/zhaohuo"/>
+        <RelativeLayout
+            android:id="@+id/common_top_category"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:paddingTop="10dp"
+                android:id="@+id/category_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="分类"
+                android:textColor="@color/white"
+                android:drawableTop="@mipmap/fenlei"
+                />
+            <View
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/category_icon"
+                android:layout_width="28dp"
+                android:layout_height="2dp"
+                android:background="@color/white"
+                />
+        </RelativeLayout>
+
+        <AbsoluteLayout
+            android:id="@+id/common_top_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="进货单"
+                android:textColor="@color/white"
+                android:drawableTop="@mipmap/jinhuodan"/>
+            <TextView
+                android:id="@+id/category_cartnum"
+                android:gravity="center"
+                android:text="0"
+                android:lines="1"
+                android:textStyle="bold"
+                android:textColor="#CF171B"
+                android:textSize="10sp"
+                android:layout_width="24dp"
+                android:layout_height="18dp"
+                android:background="@drawable/cartnum"
+                android:layout_x="28dp"
+                android:layout_y="0dp"
+                />
+        </AbsoluteLayout>
+
+        <TextView
+            android:id="@+id/common_top_personal"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="掌柜"
+            android:textColor="@color/white"
+            android:drawableTop="@mipmap/my"/>
+
+        <include layout="@layout/common_cart_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    // 2.1 分类的listview布局
+    <LinearLayout
+        android:id="@+id/goodscategory_loading_fail"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/internet_fail_message"
+            />
+        <Button
+            android:id="@+id/goodscategory_again_loading_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/again_loading"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+
+    // 2.2 展示商品的gridview布局
+
+    <FrameLayout
+
+        android:layout_margin="18dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    // 2.2.2 具体商品展示区
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView
+        android:background="@color/white"
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_classify_gridview"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:numColumns="4"
+        android:verticalSpacing="30dp"
+        android:horizontalSpacing="1dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        ptr:ptrMode="disabled"
+        android:visibility="visible"
+         />
+        <LinearLayout
+            android:id="@+id/goodslist_loading_fail"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/goodslist_again_loading_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/internet_fail_message"
+                />
+            <Button
+                android:id="@+id/goodslist_again_loading_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/again_loading"
+                android:onClick="onClick"
+                />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
+
+</LinearLayout>

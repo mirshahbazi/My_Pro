@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "E:\\posapp\\WizarposApp\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "E:\\posapp\\WizarposApp\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    }
+]

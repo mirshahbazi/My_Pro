@@ -1,0 +1,300 @@
+<resources>
+    <string name="common_delete">删除</string>
+    <string name="common_goodsname">商品名称</string>
+    <string name="common_name">名称</string>
+    <string name="common_standard">规格</string>
+    <string name="common_unitPrice">单价</string>
+    <string name="common_minOrder">起订</string>
+    <string name="common_goods_num">数量</string>
+    <string name="common_goods_store">库存:</string>
+    <string name="common_operate">操作</string>
+    <string name="commom_goods_createtime">生产日期</string>
+    <string name="commom_goods_praise">限订</string>
+    <string name="common_addcart">加入购物车</string>
+    <string name="common_checkLogistics">查看物流</string>
+    <string name="common_orderDetails">订单详情</string>
+    <string name="common_immediatelyPay">立即支付</string>
+    <string name="common_payDetails">付款详情</string>
+    <string name="common_finish">完成</string>
+    <string name="common_number">数量</string>
+    <string name="common_unpay">待付款</string>
+    <string name="common_payall">共付款</string>
+    <string name="common_backpage_first">返回首页</string>
+    <string name="common_pay_already">已支付</string>
+    <string name="common_pay_wait">未支付</string>
+    <string name="common_pay_go">前往支付</string>
+
+
+    <string name="app_name">邻家商盟</string>
+    <string name="cart_order">订货单</string>
+    <string name="cart_allSelect">全选</string>
+    <string name="choice_coupon">选择优惠券</string>
+    <string name="cart_submitOrder">提交订单</string>
+    <string name="giftCard_stock">库存</string>
+    <string name="giftCard_card">卡券</string>
+    <string name="giftCart_rule">卡券使用规则</string>
+    <string name="giftCard_useCard">抵用券</string>
+    <string name="giftCard_goodsCard">购物券</string>
+    <string name="giftCart_lastTime">到期时间</string>
+    <string name="giftCart_status">状态</string>
+    <string name="goodsDetails_goodsDetails">商品详情</string>
+    <string name="goodsDetails_barcode">条码   </string>
+    <string name="goodsDetails_brand">品牌   </string>
+    <string name="goodsDetails_unit">单位   </string>
+    <string name="goodsDetails_type">类型   </string>
+    <string name="goodsDetails_standard">规格   </string>
+    <string name="login_accountNumber">请输入您的账号</string>
+    <string name="login_passWord">请输入您的密码</string>
+    <string name="login_login">登录</string>
+    <string name="login_remAccountNumber">记住密码</string>
+    <string name="main_linJiaBoss">邻家掌柜</string>
+    <string name="main_goodsNameBarCode"> 商品名/条形码</string>
+    <string name="myOrderForm_myOrder">我的订单</string>
+    <string name="myOrderForm_finishOrder">已付款订单</string>
+    <string name="myOrderForm_unfinishOrder">待付款订单</string>
+    <string name="myOrderForm_historyOrder">已收货订单</string>
+    <string name="myOrderForm_orderNum">订单号</string>
+    <string name="myOrderForm_orderTime">下单时间</string>
+    <string name="myOrderForm_money">金额</string>
+    <string name="myOrderForm_orderState">订单状态</string>
+    <string name="orderdetail_orderNum">订单号：</string>
+    <string name="orderDetail_orderTime">下单时间：</string>
+    <string name="payDetails_payMethod">支付方式：</string>
+    <string name="payDetails_weiChatPay">微信支付</string>
+    <string name="payDetails_deliveryMessage">配送信息：</string>
+    <string name="payDetails_linjiaDelivery">邻家配送</string>
+    <string name="payDetails_deliveryDate">配送日期：</string>
+    <string name="payDetails_goodsTotalMoney">商品总额：</string>
+    <string name="payDetails_privilege">优惠：</string>
+    <string name="payDetails_transportationMoney">运费：</string>
+    <string name="payDetails_realPay">实付款 ￥ </string>
+    <string name="person_bossCenter">掌柜中心</string>
+    <string name="person_unGetGoods">待收货</string>
+    <string name="person_alreadyGet">已收货</string>
+    <string name="person_message">消息</string>
+    <string name="person_myLocation">我的收货地址</string>
+    <string name="person_setting">设置</string>
+    <string name="search_searchDetails">    选中的分类/搜索关键字</string>
+    <string name="search_searchtext">搜索</string>
+    <string name="search_hotSearch">热搜</string>
+    <string name="search_history">历史</string>
+    <string name="submitOrderForm_store">店铺：</string>
+    <string name="submitOrderForm_getGoodsMan">收货人：</string>
+    <string name="submitOrderForm_phoneNumber">联系电话：</string>
+    <string name="submitOrderForm_location">地址：</string>
+    <string name="submitOrderForm_remark">备注：</string>
+    <string name="fragmentCard_renminbi">￥</string>
+    <string name="fragmentCard_unuse">未使用</string>
+    <string name="fragment_canUse">可使用</string>
+    <string name="fragmet_alUse">已使用</string>
+    <string name="fragment_outOfTime">已过期</string>
+    <string name="uncoupon">暂时无可用卡券</string>
+    <string name="internet_fail_message">您的网络好像出了问题</string>
+    <string name="again_loading">重新加载</string>
+    <string name="cart_orderForm_title_number">数量</string>
+    <string name="cart_payment_btn">结算</string>
+    <string name="commit_payment_btn">支付订单</string>
+    <string name="commit_orderform_real_pay">实付</string>
+    <string name="commit_orderform_freight">运费</string>
+    <string name="commit_orderform_totalMonney">总额</string>
+    <string name="select_pay_dialog_title">请选择支付方式</string>
+    <string name="select_pay_dialog_alipay">支付宝</string>
+    <string name="select_pay_dialog_baidu">百度钱包</string>
+    <string name="select_pay_dialog_weixin">微信</string>
+    <string name="select_pay_dialog_tencent">QQ钱包</string>
+    <string name="pay_state_activity_return_main">返回首页</string>
+    <string name="data_loaging_fail">哎呀，出错啦！</string>
+    <string name="service_line">邻家客服</string>
+    <string name="service_line_num">400-928-3888</string>
+
+    <!--toast-->
+    <string name="login_token_alreday_dated">登录口令已经过期</string>
+
+    <!--LoginActivity-->
+    <string name="Linjia_name">邻家新锐电子商务（深圳）有限公司</string>
+    <string name="login_verifyIng">验证中。。。</string>
+    <string name="internet_errer">网络错误╮(╯▽╰)╭</string>
+    <string name="now_internet_Invalidations">当前网络无效(づ￣ 3￣)づ，不能自动登录</string>
+    <string name="identity_verify_accomplish">身份验证完成</string>
+    <string name="usernameAndpassword_notNull">用户名和密码不能为空</string>
+
+    <!--cartActivity-->
+    <string name="loadingIng">加载中。。。</string>
+    <string name="not_selected_any_goods">你没有选中任何商品哦(⊙o⊙)</string>
+    <string name="delete_ing">删除中。。。</string>
+
+    <!--submitActivty-->
+    <string name="loading_couponIng">加载卡券中。。。</string>
+    <string name="loading_succeed">加载成功</string>
+    <string name="return_isNull">返回值为空</string>
+    <string name="internetVisitError">网络访问出错</string>
+    <string name="reminder">提示</string>
+    <string name="submit_orderIng">提交订单中。。。</string>
+    <string name="parameter_error">参数错误╮(╯▽╰)╭</string>
+    <string name="order_create_succeeed">订单创建成功</string>
+    <string name="order_create_fail">订单创建失败</string>
+    <string name="prepare_paying">准备支付中</string>
+    <string name="prepare_fail">准备失败</string>
+    <string name="scan_code_succeed">扫码成功</string>
+    <string name="paying">支付中</string>
+    <string name="pay_fail">支付失败</string>
+    <string name="pay_success">支付成功</string>
+
+    <!--submitActivity_拼接-->
+    <string name="select_coupon_number_and_favorableMoney" formatted="false">(选择%d张购物券，共计优惠%s元）</string>
+    <string name="now_not_usable_discountCoupon">（暂时无可用购物券）</string>
+    <string name="now_not_usable_offsetCoupon">(暂时无可用购物券)</string>
+    <string name="select_coupon_number_and_offsetMoney" formatted="false">(选择%d张抵用券，共计优惠%s元）</string>
+
+    <!--submitorderformactivity 的button stirng-->
+    <string name="submitActivity_button_already_pay">已付款</string>
+    <string name="submitActivity_button_topay">去付款</string>
+    <!--submitorderformactivity 的textview string-->
+    <string name="submitActivity_textview_coupon">优惠券：</string>
+    <string name="submitActivity_textview_shopCoupon">购物券</string>
+    <string name="submitActivity_textview_offsetCoupon">抵扣券</string>
+
+
+    <!--支付结果页面-->
+    <string name="payResult_activity_title_succeed">支付成功</string>
+    <string name="payResult_activity_title_fail">支付失败</string>
+    <string name="payResult_activity_returnMain_btn">返回首页</string>
+
+
+    <!--新增共用的商品title-->
+    <string name="global_goods_title_oerate">操作</string>
+
+    <!--cartitem的字符串-->
+    <string name="cartItem_minOrder">起订:</string>
+    <string name="cartItem_maxOrder">限订:</string>
+    <string name="cartItem_fvorable_type_not_tatol">此商品不参加优惠券活动</string>
+    <string name="cartItem_fvorable_type_not_shopCart">此商品不参加购物券活动</string>
+    <string name="cartItem_fvorable_type_not_offsetCart">此商品不参加抵用券活动</string>
+
+    <!--selectCoupon-->
+    <string name="select_coupon_dialog_nothaveCoupon">╮(╯▽╰)╭没有可用卡券</string>
+    <string name="select_coupon_dialog_name">卡券</string>
+    <string name="select_coupon_dialog_rule">使用规则</string>
+    <string name="select_coupon_dialog_date">到期时间</string>
+    <!--selectCoupon Listitem-->
+    <string name="select_coupon_dialog_listitem_not_usable">已不满足叠加条件</string>
+    <string name="select_coupon_dialog_listitem_not_limit_time">不限</string>
+    <string name="select_coupon_dialog_notAndUsable">抵用券和购物券不能同时使用噢╮(╯▽╰)╭</string>
+
+    <!--选择支付界面的-->
+    <string name="select_pay_dialog_ultimately_pay_tag">需要支付：</string>
+
+    <!--登陆页面-->
+    <string name="loginActvity_usernameOrPasswrod_error">用户名或密码错误</string>
+
+    <!--扫码搜索提示-->
+    <string name="goods_search_scan">竖屏扫码奥亲！</string>
+    <string name="goods_search_empty_result">扫描结果为空</string>
+    <string name="goods_search_empty_input">输入内容不能为空</string>
+
+    <!--商品搜索结果提示-->
+    <string name="goods_category_no_goods">抱歉，暂时没有该类商品！</string>
+    <string name="goods_list_refresh">刷新成功</string>
+    <string name="goods_list_refresh_fail">刷新失败！</string>
+    <string name="goods_list_refresh_complete">加载完成！</string>
+    <string name="goods_list_load_fail">加载失败！</string>
+
+    <!--商品添加购物车提示-->
+    <string name="goods_purchase_lastnum">当前已是最低起订数量</string>
+    <string name="goods_purchase_praisenum">当前数量已经是最大限订量了亲</string>
+    <string name="goods_purchase_storenum">当前数量已经是库存最大量</string>
+    <string name="goods_purchase_supplenum">抱歉，邻家正在补货中。。。</string>
+    <string name="goods_pruchase_nomoregoods">已经没有更多库存啦！</string>
+    <string name="goods_purchase_addcart">已加入购物车</string>
+    <string name="goods_purchase_addfaild">失败啦，再试试，亲！</string>
+    <string name="goods_purchase_morepriase">您已超过限订量！</string>
+    <string name="goods_purchase_wrong">哎呀,出错啦！</string>
+    <string name="goods_purchase_supplegoods">火速补货中</string>
+    <string name="goods_purchase_successadd">添加成功！</string>
+    <string name="goods_purchase_shortstore">库存不足！</string>
+    <string name="goods_purchase_reducegoods">成功减去一件商品</string>
+    <string name="goods_purchase_addgoods">成功添加一件商品</string>
+    <string name="goods_pruchase_deletegoods">已从购物车中删除该商品</string>
+    <string name="goods_pruchase_noincludegoods">购物车中暂时没有该商品</string>
+    <string name="goods_purchase_cantorder">暂时无法预订</string>
+
+    <!--dialog提示内容-->
+    <string name="dialog_loading">加载中。。。</string>
+
+    <!--网络错误提示-->
+    <string name="net_wrong">网络错误</string>
+
+    <!--退出提示-->
+    <string name="exit_hint">双击退出</string>
+    <string name="regulation_coupon"> 1、 抵用券 ：\n
+                        单张面值50、100、200、300元\n
+                        50元抵用券： 单笔订单金额满150元，可以使用\n
+                        100元抵用券： 单笔订单金额满299元，可以使用\n
+                        200元抵用券： 单笔订单金额满599元，可以使用\n
+                        300元抵用券： 单笔订单金额满899元，可以使用\n
+                        有不参加抵用券或优惠券标志的商品除外\n
+                        抵用券与其他优惠活动不能同时使用\n
+                        2、 购物券： \n
+                        单张面值20-1000元不等\n
+                        20元购物券： 满1种商品且满500元可用\n
+                        50元购物券： 满10种商品且满1100元可用\n
+                        100元购物券： 满15种商品且满2000元可用\n
+                        200元购物券： 满20种商品且满3600元可用\n
+                        300元购物券： 满25种商品且满5000元可用\n
+                        500元购物券：满30种商品且满7200元可用\n
+                        800元购物券：满36种商品且满9600元可用\n
+                        1000元购物券： 满40种商品且满11800元可用\n
+                        有不参加购物券或优惠券标志的商品除外\n
+                        购物券有效期为发放之日一个月。</string>
+
+    <!--订单状态-->
+    <string name="order_status_unpay">未付款</string>
+    <string name="order_status_payed">已付款</string>
+    <string name="order_status_history">历史订单</string>
+    <string name="order_status_cacelorder">你确定要取消当前订单吗？</string>
+    <string name="order_status_cacelyes">是的</string>
+    <string name="order_status_cacelno">取消</string>
+
+    <!--版本号-->
+    <string name="versioncode">Android&#160;</string>
+    <string name="version_info">版本信息</string>
+    <string name="this_version_number">当前版本</string>
+
+    <!--卡券使用-->
+    <string name="coupon_use_nodiscount">此商品不参加优惠券活动</string>
+    <string name="coupon_use_nodiscoupon">此商品不参加抵用券活动</string>
+    <string name="coupon_use_coupon">此商品不参加购物券活动</string>
+
+    <!--订单处理-->
+    <string name="order_cacel">订单已取消</string>
+    <string name="order_request_fail">请求失败！</string>
+    <string name="order_submit_fail">创建订单失败</string>
+    <string name="order_pay_fail">支付失败</string>
+
+    <!--邻家比使用-->
+    <string name="linjia_coins_balance">邻家币余额</string>
+    <string name="linjia_coins">使用邻家钱包</string>
+    <string name="linjia_coins_num">(余额￥0)</string>
+    <string name="linjia_coins_use">50.00￥</string>
+    <string name="linjia_coins_discount">抵扣</string>
+
+    <!--卡券展示页面-->
+    <string name="activity_coupon_show_nearoutdata">即将过期优惠券</string>
+    <string name="activity_coupon_show_useable">可使用优惠券</string>
+    <string name="activity_coupon_show_cantuse">暂不可用优惠券</string>
+    <string name="activity_coupon_show_nocoupon">(暂无)</string>
+
+    <!--扫码提示-->
+    <string name="scan_success">添加成功</string>
+    <string name="scan_code">点击扫码</string>
+
+
+
+    <!--首页adapter-->
+    <string name="not_know">未知错误</string>
+    <string name="not_click">QAQ 等下~~~ 让我算算</string>
+
+    <!--maingoodsListAdapter-->
+    <string name="operation_succeed">操作成功</string>
+
+</resources>

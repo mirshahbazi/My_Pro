@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\pay_succeed.jpeg",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\pay_succeed.jpeg"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\reduce.jpg",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\reduce.jpg"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\pay_fail.jpeg",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\pay_fail.jpeg"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\pinleibackgroundimage.jpg",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\pinleibackgroundimage.jpg"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\plus.jpg",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\plus.jpg"
+    }
+]

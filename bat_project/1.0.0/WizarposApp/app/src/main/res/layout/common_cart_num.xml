@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:id="@+id/common_cart">
+<ImageView
+    android:id="@+id/cart"
+    android:src="@mipmap/shopcar"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:scaleType="fitXY"
+    />
+    <TextView
+        android:id="@+id/cart_num"
+        android:gravity="center"
+        android:text="0"
+        android:lines="1"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/cartnum"
+        android:layout_x="26dp"
+        android:layout_y="3dp" />
+</AbsoluteLayout>

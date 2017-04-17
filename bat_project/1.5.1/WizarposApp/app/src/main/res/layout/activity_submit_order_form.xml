@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.linjia.wizarposapp.activities.SubmitOrderFormActivity">
+    // 1 导航栏
+
+    <RelativeLayout
+        android:id="@+id/activity_submit_order_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="64px"
+        android:background="@color/titlebar"
+        android:gravity="center_vertical">
+
+        // 1.1 返回图标
+
+        <ImageView
+            android:id="@+id/activity_submit_order_form_top_back_iv"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="52px"
+            android:onClick="onClick"
+            android:src="@mipmap/back" />
+
+        // 1.2 导航栏标题
+
+        <TextView
+            android:id="@+id/activity_submit_order_form_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/cart_submitOrder"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    // 2 店铺 收货人 联系电话
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        // 4 listview列表内容
+
+        <ListView
+            android:id="@+id/activity_commit_orderform_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+        <View
+            android:id="@+id/activity_commit_goods_title"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/line"></View>
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/shadow_line"></View>
+
+    <TextView
+        android:id="@+id/cart_exempt_freight_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fdf7f5"
+        android:drawableLeft="@mipmap/exempt_freight"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="20dp"
+        android:textColor="#ef4625"
+        android:textSize="22sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E3E2E0"></View>
+
+    // 5 底部的价格显示和订单提交
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/commit_payment_btn"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="#ff4d16"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/commit_payment_btn"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/commit_continue_shop"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/commit_payment_btn"
+            android:background="#FF8523"
+            android:onClick="onClick"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/continue_shop"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/commit_payment_money"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10px"
+            android:layout_toLeftOf="@id/commit_continue_shop"
+            android:gravity="center"
+            android:text="00.00"
+            android:textColor="#FF0000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/commit_orderform_money_realpay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/commit_payment_money"
+            android:text="@string/commit_orderform_real_pay"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/commit_orderForm_freight_number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/commit_orderform_money_realpay"
+            android:gravity="center"
+            android:text="00.00"
+            android:textColor="#FF0000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/commit_orderForm_freight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@id/commit_orderForm_freight_number"
+            android:text="@string/commit_orderform_freight"
+            android:textSize="18sp" />
+
+        //统计商品的数量和种类
+        <TextView
+            android:id="@+id/submit_goods_kind_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="共0种商品，0件"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:id="@+id/commit_orderForm_totalmoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/submit_goods_kind_number"
+            android:text="@string/commit_orderform_totalMonney"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/commit_orderForm_totalmoney_number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/commit_orderForm_totalmoney"
+            android:gravity="center"
+            android:text="00.00"
+            android:textColor="#FF0000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/submit_favorable_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favorable_limit"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/commit_orderForm_totalmoney_number"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/submit_favorable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#F00"
+            android:text="00.00"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/submit_favorable_tag"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

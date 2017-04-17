@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.linjia.wizarposapp.activities.ClassifyActivity">
+    // 1 顶部导航栏
+<LinearLayout
+    android:background="#E51312"
+    android:layout_width="match_parent"
+    android:layout_height="82px"
+    android:gravity="center_vertical">
+
+    // 1.1 返回图标
+<ImageView
+    android:id="@+id/common_top_back_iv"
+    android:layout_width="36dp"
+    android:layout_height="36dp"
+    android:src="@mipmap/common_top_back"
+    android:layout_marginLeft="5dp"
+    android:clickable="true"/>
+
+    // 1.2 导航栏标题
+    <TextView
+        android:id="@+id/common_top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="商品品类"
+        android:textSize="35px"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/common_top_search"
+        android:paddingLeft="10dp"
+        android:layout_width="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="43dp"
+        android:drawableLeft="@drawable/search"
+        android:background="@drawable/searchview"
+        android:hint="@string/main_goodsNameBarCode"
+        android:clickable="true"
+        android:focusable="false"/>
+    <include layout="@layout/common_cart_num"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="320dp"
+        />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    // 2.1 分类的listview布局
+    <LinearLayout
+        android:id="@+id/goodscategory_loading_fail"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/internet_fail_message"
+            />
+        <Button
+            android:id="@+id/goodscategory_again_loading_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/again_loading"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:background="#F1F1F1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="全部"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:id="@+id/activity_classify_listview_text"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorLine"
+            />
+        <ListView
+            android:id="@+id/activity_classify_classifylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorLine"/>
+
+    // 2.2 展示商品的gridview布局
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        // 2.2.2 具体商品展示区
+        <com.handmark.pulltorefresh.library.PullToRefreshGridView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/activity_classify_gridview"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:numColumns="1"
+            android:verticalSpacing="1dp"
+            android:horizontalSpacing="1dp"
+            android:stretchMode="columnWidth"
+            android:gravity="fill"
+            ptr:ptrMode="pullFromEnd"
+            android:visibility="visible"
+             />
+            <LinearLayout
+                android:id="@+id/goodslist_loading_fail"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/goodslist_again_loading_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/internet_fail_message"
+                    />
+                <Button
+                    android:id="@+id/goodslist_again_loading_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/again_loading"
+                    android:onClick="onClick"
+                    />
+            </LinearLayout>
+        </FrameLayout>
+
+</LinearLayout>
+
+</LinearLayout>

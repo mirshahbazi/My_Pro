@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\okhttp-3.4.1_a3a718343956c6e4d917a53a4fdd4a4dc134cda5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_2fb3edec79453a09af6e79ea05eadf04ed4c185a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\exploded-aar\WizarposApp\pulltorefresh\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c610b668724eb562e27772f83a529e11f16c03e4">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\WizarposApp-pulltorefresh-unspecified_343793157b16e0b957815f49cca18c03d8dd4ecd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_1bd1a1b9920e31d37d02019034577fc047793fd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\internal_impl-24.0.0_328262f40de5d457b13f59d251b64533ee7a77c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_2e048f96d108de8b5187e92a310a1eba5fd9292a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-24.0.0_b18cf3c3cfd8d03347b690d9b1afd7038558508e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_2428dbd5eabf65ae69bc01abd6e4b72d08e545aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b674c79394e59cdc5a959dc62c1309185f9182f0">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\instant-run_911f1dc8ceed0e359408679591cd7c4a74d8e325.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\picasso-2.5.2_2428dbd5eabf65ae69bc01abd6e4b72d08e545aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_328262f40de5d457b13f59d251b64533ee7a77c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.0.0_1bd1a1b9920e31d37d02019034577fc047793fd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\libs\barcodedecoder_r23459.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7fa04ff38c71c84ab160b98a1afc51f7cbf274e">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\barcodedecoder_r23459_56314099bec3fbdf48727bba8c16ae7cedb3488f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-24.0.0_2fb3edec79453a09af6e79ea05eadf04ed4c185a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_b18cf3c3cfd8d03347b690d9b1afd7038558508e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_106090c5a69a9eb207699afecb382e1d8c2eaf41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\libs\barcodedecoder_r23459.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7fa04ff38c71c84ab160b98a1afc51f7cbf274e">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\barcodedecoder_r23459_56314099bec3fbdf48727bba8c16ae7cedb3488f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\support-annotations-24.0.0_106090c5a69a9eb207699afecb382e1d8c2eaf41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\okio-1.9.0_db0545b090bbd931e1cf6e43202e038727277a7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\libs\barcodescanner_r23518.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8ffbb5741161a691381f6beeb5b26ed45e762bef">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\barcodescanner_r23518_047d647cff5da09ffa64047344f448c72d8ab221.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\okio-1.9.0_db0545b090bbd931e1cf6e43202e038727277a7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\libs\barcodescanner_r23518.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8ffbb5741161a691381f6beeb5b26ed45e762bef">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\barcodescanner_r23518_047d647cff5da09ffa64047344f448c72d8ab221.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_a3a718343956c6e4d917a53a4fdd4a4dc134cda5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-24.0.0_2e048f96d108de8b5187e92a310a1eba5fd9292a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_pro\WizarposApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="db1ba6f6c43091ce81ef616dc051c3b17b54b5ba">
+        <dex dex="E:\android_pro\WizarposApp\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_dfc4efb5131ebaec47c09725585d55f4e1df55b3.jar" />
+    </item>
+
+</items>

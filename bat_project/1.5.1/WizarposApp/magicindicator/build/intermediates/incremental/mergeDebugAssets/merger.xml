@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\bat_project\1.5.1\WizarposApp\magicindicator\src\main\assets"/><source path="E:\bat_project\1.5.1\WizarposApp\magicindicator\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\bat_project\1.5.1\WizarposApp\magicindicator\src\debug\assets"/></dataSet></merger>

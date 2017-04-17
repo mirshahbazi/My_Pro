@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+<AbsoluteLayout
+    android:layout_width="328px"
+    android:layout_height="124px"
+    android:background="@color/redtop">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="35px"
+        android:layout_y="35px"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/fragment_card_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/giftCard_goodsCard"
+            android:textColor="@color/white"
+            android:textSize="30px"/>
+        <TextView
+            android:id="@+id/fragment_card_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单满50元可使用"
+            android:textColor="@color/white"
+            android:textSize="12px"/>
+        <TextView
+            android:id="@+id/fragment_card_usetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="有效期为2016.3.1至2016.6.1"
+            android:textColor="@color/white"
+            android:textSize="12px"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragment_card_moneylog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥"
+        android:textSize="30px"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_x="214px"
+        android:layout_y="28px" />
+
+    <TextView
+        android:id="@+id/fragment_card_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50"
+        android:textColor="@color/white"
+        android:textSize="68px"
+        android:layout_x="240px"
+        android:layout_y="35px" />
+
+    <TextView
+        android:id="@+id/fragment_card_usestate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未使用"
+        android:textColor="@color/black"
+        android:textSize="20px"
+        android:layout_x="260px"
+        android:layout_y="5px"
+        android:padding="3px"
+        android:background="@drawable/common_btn_backline"/>
+
+    
+</AbsoluteLayout>
+</RelativeLayout>

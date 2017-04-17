@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/submit_goodslist_item_img"
+            android:src="@mipmap/linjia_holder"
+            android:scaleType="fitXY"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/submit_goodslist_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"/>
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/submit_goodslist_item_stname"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/submit_goodslist_item_createtime"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/submit_goodslist_item_substract"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/substract"
+                />
+            <TextView
+                android:id="@+id/submit_goodslist_item_num"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/goods_num"
+                android:textSize="14sp"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/submit_goodslist_item_add"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/add"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/submit_goodslist_item_price"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:paddingLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="24sp"
+                android:textColor="@color/titlebar"/>
+            <TextView
+                android:id="@+id/submit_goodslist_item_unit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"/>
+
+</LinearLayout>

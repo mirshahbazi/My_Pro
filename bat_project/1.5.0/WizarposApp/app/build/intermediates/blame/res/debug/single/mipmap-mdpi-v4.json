@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\pay_fail.jpeg",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\pay_fail.jpeg"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\pinleibackgroundimage.jpg",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\pinleibackgroundimage.jpg"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\pay_succeed.jpeg",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\pay_succeed.jpeg"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\reduce.jpg",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\reduce.jpg"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\plus.jpg",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\plus.jpg"
+    }
+]

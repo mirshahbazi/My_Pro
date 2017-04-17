@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity"
+    android:descendantFocusability="afterDescendants"
+    >
+    <fragment
+        android:id="@+id/main_title_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        class="top.linjia.wizarposapp.view.fragment.TitleFragment"
+        />
+
+    //3 商品目录浏览区  标题
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="5px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/type_title_back_shape"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_scan_name"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/common_name"/>
+
+        <TextView
+            android:id="@+id/main_scan_danjia"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/common_unitPrice"/>
+
+        <TextView
+            android:id="@+id/main_scan_kucun"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/giftCard_stock"/>
+
+        <TextView
+            android:id="@+id/main_scan_stname"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/common_operate"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/main_list_loading_fail"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/internet_fail_message"
+                />
+            <Button
+                android:id="@+id/again_loading_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/again_loading"
+                android:onClick="onClick"
+                />
+        </LinearLayout>
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/main_pullrefreshlistview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/line"
+            android:dividerHeight="1px"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:smoothScrollbar="true" />
+    </FrameLayout>
+</LinearLayout>

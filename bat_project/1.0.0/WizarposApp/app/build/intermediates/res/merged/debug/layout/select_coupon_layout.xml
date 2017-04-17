@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="400px"
+    android:background="#FFFFFF"
+    >
+    <ProgressBar
+        android:id="@+id/coupon_loading"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+        />
+    <TextView
+        android:id="@+id/select_coupon_dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/select_coupon_dialog_nothaveCoupon"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        />
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/custom_dialog_coupon_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+
+</FrameLayout>

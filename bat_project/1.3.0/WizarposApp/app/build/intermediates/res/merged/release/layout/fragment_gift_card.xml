@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60px"
+    android:orientation="horizontal">
+    // 可使用
+    <RelativeLayout
+        android:id="@+id/fragment_gift_card_rl_canuse"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/fragment_gift_card_canusetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_canUse"
+            android:textSize="@dimen/textsize_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10px"
+            android:textColor="@color/yellow"/>
+        <TextView
+            android:id="@+id/fragment_gift_card_canusenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="（42）"
+            android:textSize="@dimen/textsize_2"
+            android:layout_alignTop="@+id/fragment_gift_card_canusetext"
+            android:layout_toRightOf="@+id/fragment_gift_card_canusetext"
+            android:layout_toEndOf="@+id/fragment_gift_card_canusetext"
+            android:textColor="@color/yellow"/>
+        <View
+            android:id="@+id/fragment_gift_card_canuseview"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/yellow"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    // 已使用
+    <RelativeLayout
+        android:id="@+id/fragment_gift_card_rl_alreadyuse"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/fragment_gift_card_alreadyusetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragmet_alUse"
+            android:textSize="@dimen/textsize_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10px"
+            />
+        <TextView
+            android:id="@+id/fragment_gift_card_alreadyusenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="（42）"
+            android:textSize="@dimen/textsize_2"
+            android:layout_alignTop="@+id/fragment_gift_card_alreadyusetext"
+            android:layout_toRightOf="@+id/fragment_gift_card_alreadyusetext"
+            android:layout_toEndOf="@+id/fragment_gift_card_alreadyusetext"
+          />
+        <View
+            android:id="@+id/fragment_gift_card_alreadyuseview"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    // 已过期
+    <RelativeLayout
+        android:id="@+id/fragment_gift_card_rl_outofdate"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/fragment_gift_card_outofdatetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_outOfTime"
+            android:textSize="@dimen/textsize_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10px"
+            />
+        <TextView
+            android:id="@+id/fragment_gift_card_outofdatenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="（42）"
+            android:textSize="@dimen/textsize_2"
+            android:layout_alignTop="@+id/fragment_gift_card_outofdatetext"
+            android:layout_toRightOf="@+id/fragment_gift_card_outofdatetext"
+            android:layout_toEndOf="@+id/fragment_gift_card_outofdatetext"
+            />
+        <View
+            android:id="@+id/fragment_gift_card_outofdateview"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+    // 卡券展示gridview
+    <GridView
+        android:id="@+id/fragment_gift_card_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchMode="columnWidth"
+        android:numColumns="2"></GridView>
+
+
+</LinearLayout>

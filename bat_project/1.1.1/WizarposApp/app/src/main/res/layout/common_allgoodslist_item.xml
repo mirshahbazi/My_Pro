@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/backgroundline">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/main_scan_item_name"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="格桑泉饮用天然矿泉水"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/main_scan_item_guige"
+            android:layout_width="0dp"
+            android:layout_weight="2.8"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="箱/500ml*24"/>
+        <TextView
+            android:id="@+id/main_scan_item_danjia"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="￥ 39.0"/>
+        <TextView
+            android:id="@+id/main_scan_item_qiding"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="1"/>
+        <TextView
+            android:id="@+id/main_scan_item_kucun"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="200"/>
+        <RelativeLayout
+            android:id="@+id/main_scan_item_cart"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            >
+
+            <include layout="@layout/common_cart_num"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

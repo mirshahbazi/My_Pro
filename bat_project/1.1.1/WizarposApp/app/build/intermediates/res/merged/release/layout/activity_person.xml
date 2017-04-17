@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.linjia.wizarposapp.activities.PersonActivity">
+    // 1 导航栏
+    <RelativeLayout
+        android:background="#E51312"
+        android:layout_width="match_parent"
+        android:layout_height="82px"
+        android:gravity="center_vertical">
+
+        // 1.1 返回图标
+        <ImageView
+            android:id="@+id/activity_person_top_back_iv"
+            android:layout_width="@dimen/backimg"
+            android:layout_height="@dimen/backimg"
+            android:src="@mipmap/common_top_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        // 1.2 导航栏标题
+        <TextView
+            android:id="@+id/activity_person_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/person_bossCenter"
+            android:textSize="@dimen/toptitle"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    // 2 待付款  待收货 已收货 我的订单 卡券
+    <LinearLayout
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+        <LinearLayout
+            android:id="@+id/activity_person_ll_unpay"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <FrameLayout
+                android:layout_width="70px"
+                android:layout_height="70px">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/boss_unpay"
+                        android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/activity_person_unpay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/common_conor_textback"
+                    android:layout_gravity="right|top" />
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/common_unpay"
+                android:textSize="@dimen/textsize_3"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_person_ll_ungetgoods"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <FrameLayout
+                android:layout_width="70px"
+                android:layout_height="70px">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/boss_ungetgoods"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/activity_person_ungetgoods"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/common_conor_textback"
+                    android:layout_gravity="right|top" />
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/person_unGetGoods"
+                android:textSize="@dimen/textsize_3"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_person_ll_getgoods"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <FrameLayout
+                android:layout_width="70px"
+                android:layout_height="70px">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/boss_getgoods"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/activity_person_getgoods"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/common_conor_textback"
+                    android:layout_gravity="right|top" />
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/person_alreadyGet"
+                android:textSize="@dimen/textsize_3"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_person_ll_myorder"
+            android:clickable="true"
+        android:layout_width="0dp"
+            android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <FrameLayout
+            android:layout_width="70px"
+            android:layout_height="70px">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/boss_myorder"
+                android:scaleType="fitEnd"/>
+
+            <TextView
+                android:id="@+id/activity_person_myorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/common_conor_textback"
+                android:layout_gravity="right|top" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/myOrderForm_myOrder"
+            android:textSize="@dimen/textsize_3"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    //暂时隐藏掉卡券展示功能
+    <RelativeLayout
+        android:id="@+id/activity_person_giftcart_ll"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginLeft="40dp"
+        android:visibility="visible"
+        >
+        <ImageView
+            android:id="@+id/activity_person_giftcart_iv"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_centerVertical="true"
+            android:src="@drawable/person_coupon"/>
+        <TextView
+            android:id="@+id/activity_person_giftcart_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/giftCard_card"
+            android:textSize="@dimen/textsize_3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/activity_person_giftcart_iv"
+            />
+        <ImageView
+            android:id="@+id/activity_person_giftcart_right"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/common_person_right"
+            android:layout_marginRight="50dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorLine"/>
+
+    // 4 我的收货地址
+    <RelativeLayout
+        android:id="@+id/activity_person_location_ll"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginLeft="40dp"
+        >
+        <ImageView
+            android:id="@+id/activity_person_location_iv"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/boss_location"/>
+        <TextView
+            android:id="@+id/activity_person_location_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/person_myLocation"
+            android:textSize="@dimen/textsize_3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/activity_person_location_iv"
+            />
+        <ImageView
+            android:id="@+id/activity_person_location_right"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/common_person_right"
+            android:layout_marginRight="50dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorLine"/>
+
+    // 5 设置
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginLeft="40dp"
+        >
+        <ImageView
+            android:id="@+id/activity_person_service_iv"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_centerVertical="true"
+            android:src="@drawable/service_line"/>
+        <TextView
+            android:id="@+id/activity_person_service_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/service_line"
+            android:textSize="@dimen/textsize_3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/activity_person_service_iv"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textsize_3"
+            android:layout_toRightOf="@+id/activity_person_service_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/service_line_num"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorLine"/>
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123455"
+        android:textSize="18sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+</LinearLayout>

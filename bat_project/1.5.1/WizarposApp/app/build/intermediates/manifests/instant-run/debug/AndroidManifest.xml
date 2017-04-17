@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="top.linjia.wizarposapp"
+    android:versionCode="5"
+    android:versionName="v1.3.1" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        name="top.linjia.wizarposapp.global.WizarPosApp"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/linjia"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="top.linjia.wizarposapp.activities.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="top.linjia.wizarposapp.activities.MainActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="top.linjia.wizarposapp.activities.PersonActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.CartActivity" />
+        <activity
+            android:name="top.linjia.wizarposapp.activities.ClassifyActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="top.linjia.wizarposapp.activities.GoodsDetailsActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.SearchActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.OrderFormDetailActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.PayDetailsActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.SubmitOrderFormActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.MyOrderFormActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.GiftCardActivity" />
+        <activity android:name="com.wizarpos.barcode.scanner.ScannerActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.PayStateActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.PayResultActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.CouponActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.PersonAddressActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.CouponShowActivtiy" />
+        <activity android:name="top.linjia.wizarposapp.activities.VersionInfoActivity" />
+        <activity android:name="top.linjia.wizarposapp.activities.SecondLevelTypeActivity" />
+    </application>
+
+</manifest>

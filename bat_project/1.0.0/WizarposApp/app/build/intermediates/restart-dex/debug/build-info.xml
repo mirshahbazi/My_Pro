@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="15"
+    density="mdpi"
+    format="7"
+    timestamp="31859579548020"
+    token="-4878924916246701384"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="412" />
+    <task
+        name="instant-run-dex"
+        duration="712" />
+    <task
+        name="instant-run-transform"
+        duration="18" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="E:\android_pro\WizarposApp\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="E:\android_pro\WizarposApp\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="31034527539800" >
+        <artifact
+            location="E:\android_pro\WizarposApp\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="31859579548020"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="E:\android_pro\WizarposApp\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="E:\android_pro\WizarposApp\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

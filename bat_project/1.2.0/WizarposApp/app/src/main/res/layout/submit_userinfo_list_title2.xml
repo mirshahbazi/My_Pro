@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:background="@drawable/type_title_back_shape"
+        android:paddingLeft="100px"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/commit_orderFrom_title_name"
+            android:layout_width="350px"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            android:text="@string/common_name"/>
+        <TextView
+            android:id="@+id/commit_orderFrom_title_standard"
+            android:layout_toRightOf="@id/commit_orderFrom_title_name"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            android:text="@string/common_standard"/>
+        <TextView
+            android:id="@+id/commit_orderFrom_title_price"
+            android:layout_toRightOf="@id/commit_orderFrom_title_standard"
+            android:layout_width="180px"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/common_unitPrice"/>
+        <TextView
+            android:id="@+id/commit_orderFrom_title_number"
+            android:layout_toRightOf="@id/commit_orderFrom_title_price"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/cart_orderForm_title_number"/>
+    </RelativeLayout>
+</LinearLayout>

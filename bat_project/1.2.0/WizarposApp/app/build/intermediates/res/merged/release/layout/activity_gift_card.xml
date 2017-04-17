@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.linjia.wizarposapp.activities.GiftCardActivity">
+    // 1 导航栏
+    <RelativeLayout
+        android:background="#E51312"
+        android:layout_width="match_parent"
+        android:layout_height="82px"
+        android:gravity="center_vertical">
+
+        // 1.1 返回图标
+        <ImageView
+            android:id="@+id/activity_gift_card_top_back_iv"
+            android:layout_width="@dimen/backimg"
+            android:layout_height="@dimen/backimg"
+            android:src="@mipmap/common_top_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        // 1.2 导航栏标题
+        <TextView
+            android:id="@+id/activity_gift_card_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/giftCard_card"
+            android:textSize="@dimen/toptitle"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    // 2 抵用券和购物券选择栏
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rectanglekuang">
+        <RadioGroup
+            android:id="@+id/activity_gift_card_rg"
+            android:layout_width="match_parent"
+            android:layout_height="42px"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/activity_gift_card_rb_usecard"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:text="@string/giftCard_useCard"
+
+                android:background="@drawable/common_backcolor"
+                android:checked="true"
+                android:gravity="center"/>
+            <RadioButton
+                android:id="@+id/activity_gift_card_rb_goodscard"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:text="@string/giftCard_goodsCard"
+
+                android:background="@drawable/common_backcolor"
+                android:gravity="center"/>
+        </RadioGroup>
+    </LinearLayout>
+    // 3 framelayout容器
+    <FrameLayout
+        android:id="@+id/activity_gift_card_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+
+</LinearLayout>

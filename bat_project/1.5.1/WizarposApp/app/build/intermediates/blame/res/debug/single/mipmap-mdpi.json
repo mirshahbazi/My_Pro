@@ -1,0 +1,394 @@
+[
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\search_btn_back.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\search_btn_back.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\jinhuodan.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\jinhuodan.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\shopcar.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\shopcar.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia_login.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia_login.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia_login.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia_login.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\sold_out_big.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\sold_out_big.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\back.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\back.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\goodsnum_reduce_square.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\goodsnum_reduce_square.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\number_back.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\number_back.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\shopcar.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\shopcar.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia_holder.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia_holder.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\spot_cart.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\spot_cart.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\not_favorable_deduction.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\not_favorable_deduction.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\type.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\type.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\eye.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\eye.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\zhifubao.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\zhifubao.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\select_yes.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\select_yes.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\weixinzhifu.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\weixinzhifu.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\goods_details_num_grey.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\goods_details_num_grey.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\back.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\back.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\my.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\my.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\sold_out_big.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\sold_out_big.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\not_favorable_deduction.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\not_favorable_deduction.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\search.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\search.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\fenlei.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\fenlei.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_person_right.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_person_right.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\not_favorable_total.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\not_favorable_total.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\add_grey.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\add_grey.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_unchecked.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_unchecked.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia_holder.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia_holder.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\cart.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\cart.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\boss_setting.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\boss_setting.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\substract.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\substract.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\second_level_cart.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\second_level_cart.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\select_yes.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\select_yes.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\exempt_freight.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\exempt_freight.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\spot_cart.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\spot_cart.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\second_level_cart.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\second_level_cart.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\add.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\add.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\add_grey.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\add_grey.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\not_favorable_shop.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\not_favorable_shop.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_unchecked.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_unchecked.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\eye_open.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\eye_open.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\substract.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\substract.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\goods_num.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\goods_num.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\bb.9.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\bb.9.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\boss_message.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\boss_message.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\not_favorable_shop.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\not_favorable_shop.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\goodsnum_add_square.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\goodsnum_add_square.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\substract_grey.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\substract_grey.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\boss_message.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\boss_message.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\version_img.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\version_img.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\add.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\add.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\search_btn_back.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\search_btn_back.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\delet.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\delet.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\number_back.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\number_back.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\personal.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\personal.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\goods_details_num_grey.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\goods_details_num_grey.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\logo.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_checked.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_checked.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_top_back.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_top_back.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia_logo_text.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia_logo_text.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\bb.9.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\bb.9.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\boss_giftcard.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\boss_giftcard.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\goods_num.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\goods_num.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\cart_item_delete.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\cart_item_delete.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia_logo_text.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia_logo_text.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\cart_item_delete.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\cart_item_delete.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\weixinzhifu.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\weixinzhifu.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\cart.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\cart.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_checked.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_checked.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\goodsnum_reduce_square.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\goodsnum_reduce_square.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\eye_open.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\eye_open.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\not_favorable_total.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\not_favorable_total.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\goodsnum_add_square.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\goodsnum_add_square.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_person_right.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_person_right.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia_img_default.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia_img_default.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\substract_grey.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\substract_grey.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\logo.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\search.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\search.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\type.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\type.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\personal.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\personal.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\linjia_img_default.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\linjia_img_default.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\jinhuodan.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\jinhuodan.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\zhaohuo.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\zhaohuo.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\boss_setting.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\boss_setting.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\delet.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\delet.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\zhaohuo.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\zhaohuo.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\common_top_back.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\common_top_back.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\boss_giftcard.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\boss_giftcard.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\fenlei.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\fenlei.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\version_img.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\version_img.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\exempt_freight.png",
+        "source": "E:\\bat_project\\1.5.1\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\exempt_freight.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\zhifubao.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\zhifubao.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\my.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\my.png"
+    },
+    {
+        "merged": "E:\\posapp\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\eye.png",
+        "source": "E:\\posapp\\WizarposApp\\app\\src\\main\\res\\mipmap-mdpi\\eye.png"
+    }
+]

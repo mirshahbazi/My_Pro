@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="top.linjia.wizarposapp.activities.PayResultActivity">
+    <RelativeLayout
+        android:id="@+id/activity_submit_order_navigation"
+        android:background="@color/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center_vertical">
+
+        // 1.2 导航栏标题
+        <TextView
+            android:id="@+id/activity_payresult_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payResult_activity_title_succeed"
+            android:textSize="24sp"
+            android:gravity="center_vertical"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/payResult_activity_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:src="@mipmap/pay_succeed"
+            />
+
+    <TextView
+        android:layout_below="@id/payResult_activity_image"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/payResult_activity_msg"
+        android:layout_width="500dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        />
+
+    <Button
+        android:layout_below="@id/payResult_activity_msg"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/return_main_btn"
+        android:text="@string/payResult_activity_returnMain_btn"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/pay_result_btn_return_main"
+        />
+
+</RelativeLayout>

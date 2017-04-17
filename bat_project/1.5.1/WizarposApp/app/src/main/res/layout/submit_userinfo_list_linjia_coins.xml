@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/linjia_coins_total"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="24dp"
+            android:text="@string/linjia_coins_balance"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/linjia_coins_useable"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="560dp"
+            android:gravity="center"
+            android:text="@string/linjia_coins_use"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/submit_userinfo_list_linjia_coins_btn"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/submit_userinfo_list_linjia_coins_btn" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="986dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/line" />
+
+</LinearLayout>

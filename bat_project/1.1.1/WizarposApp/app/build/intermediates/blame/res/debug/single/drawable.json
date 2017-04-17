@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_coupon2.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\add_coupon2.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\remember_password_select.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\remember_password_select.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_dialog_shape.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\custom_dialog_shape.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\person_coupon.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\person_coupon.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_result_btn_return_main.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\pay_result_btn_return_main.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_coupon.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\add_coupon.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\remember_password.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\remember_password.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_search_backline.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\common_search_backline.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_cart_payment_btn_back_on.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\activity_cart_payment_btn_back_on.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_edit_text_shape.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\login_edit_text_shape.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cartnum.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\cartnum.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\unremember_password.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\unremember_password.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\place_holder.jpg",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\place_holder.jpg"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_order_submit.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\btn_order_submit.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_backcolor.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\common_backcolor.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service_line.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\service_line.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\backgroundline.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\backgroundline.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_conor_textback.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\common_conor_textback.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\checkbox.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\WizarposApp\\pulltorefresh\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conmit_orderform_line_shape.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\conmit_orderform_line_shape.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radiusline.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\radiusline.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\submit_add_coupon_selecter.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\submit_add_coupon_selecter.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\searchview.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\searchview.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dustbin.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\dustbin.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\myorder_listview_divider.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\myorder_listview_divider.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radiuslinekuang.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\radiuslinekuang.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textcolor.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\textcolor.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_btn_backline.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\common_btn_backline.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\person_service.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\person_service.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cart_item_favorable_type_backgroud.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\cart_item_favorable_type_backgroud.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectanglekuang.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\rectanglekuang.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_enter_button_shape.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\login_enter_button_shape.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\login.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\type_title_back_shape.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\type_title_back_shape.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search.png",
+        "source": "E:\\android_pro\\WizarposApp\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\WizarposApp\\pulltorefresh\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\android_pro\\WizarposApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    }
+]

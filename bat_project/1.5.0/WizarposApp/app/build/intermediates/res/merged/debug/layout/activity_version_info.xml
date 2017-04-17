@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.linjia.wizarposapp.activities.VersionInfoActivity">
+    <RelativeLayout
+        android:background="#E51312"
+        android:layout_width="match_parent"
+        android:layout_height="82px"
+        android:gravity="center_vertical">
+
+        // 1.1 返回图标
+        <ImageView
+            android:id="@+id/activity_person_top_back_iv"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@mipmap/back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        // 1.2 导航栏标题
+        <TextView
+            android:id="@+id/activity_person_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/version_info"
+            android:textSize="@dimen/toptitle"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/version_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        ></ListView>
+</LinearLayout>

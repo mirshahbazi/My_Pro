@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\goodsnum_plus.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\goodsnum_plus.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\cart.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\cart.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\boss_myorder.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\boss_myorder.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\boss_location.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\boss_location.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\boss_unpay.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\boss_unpay.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\not_use_substract.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\not_use_substract.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\boss_ungetgoods.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\boss_ungetgoods.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\boss_getgoods.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\boss_getgoods.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\goodsnum.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\goodsnum.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\goodsnum_reduce.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\goodsnum_reduce.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\not_use_add.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\not_use_add.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\search_scan.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\search_scan.png"
+    },
+    {
+        "merged": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\baozhang.png",
+        "source": "E:\\bat_project\\1.5.0\\WizarposApp\\app\\src\\main\\res\\mipmap-hdpi\\baozhang.png"
+    }
+]

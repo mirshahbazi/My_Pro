@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="请输入数量"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/cart_number_input_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/cart_num_edit_back"
+        android:inputType="number"
+        android:maxLength="3"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="28sp"
+        />
+
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d9d9d9"
+        ></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cart_number_input_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textSize="23sp"
+            android:background="@drawable/cancle_clicked_btn_select"
+            />
+
+        <Button
+            android:id="@+id/cart_number_input_enter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFF"
+            android:textSize="23sp"
+            android:background="@drawable/enter_clicked_btn_select"
+            android:text="确定"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="top.linjia.wizarposapp.activities.SearchActivity">
+    // 1 导航栏
+    <RelativeLayout
+        android:background="#E51312"
+        android:layout_width="match_parent"
+        android:layout_height="82px"
+        android:gravity="center_vertical">
+
+        // 1.1 返回图标
+        <ImageView
+            android:id="@+id/activity_search_top_back_iv"
+            android:layout_width="@dimen/backimg"
+            android:layout_height="@dimen/backimg"
+            android:src="@mipmap/common_top_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"/>
+        <top.linjia.wizarposapp.customs.MyEditText
+            android:id="@+id/activity_search_edittext"
+            android:background="@drawable/backgroundline"
+            android:layout_width="400dp"
+            android:layout_height="50px"
+            android:hint="@string/main_goodsNameBarCode"
+            android:textSize="@dimen/textsize_3"
+            android:singleLine="true"
+            android:drawableLeft="@mipmap/search"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="10dp"
+            android:imeOptions="actionSearch"
+            android:drawableRight="@mipmap/search_scan"
+            android:paddingRight="15dp"/>
+        // 1.2 导航栏标题
+        <TextView
+            android:id="@+id/activity_search_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_searchtext"
+            android:textSize="@dimen/toptitle"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/activity_search_edittext"
+            android:layout_marginLeft="10dp"
+            />
+    </RelativeLayout>
+    // 2 热搜
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_hotSearch"
+            android:textSize="@dimen/textsize_2"/>
+    </LinearLayout>
+
+    <View
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="40px"
+        android:background="@color/colorLine"/>
+    // 3 历史
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_history"
+            android:textSize="@dimen/textsize_2"/>
+    </LinearLayout>
+
+
+</LinearLayout>
